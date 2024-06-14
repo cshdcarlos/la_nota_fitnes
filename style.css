@@ -87,8 +87,8 @@ color: #E9D702;
 .tarjetas{
 
     display:grid;
-
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 7px;
 text-align: center;
 
 
