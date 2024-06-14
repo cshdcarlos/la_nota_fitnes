@@ -37,12 +37,11 @@ body {
 .main__section__container {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 12px;
     padding: 15px 60px;
 
 }
-
 .main__section__container__card {
 
     display: flex;
@@ -87,17 +86,20 @@ color: #E9D702;
 
 .tarjetas{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:grid;
+
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+text-align: center;
+
+
 }
 
 .tarjetas__informativasN{background-color: black;
     color: white;
-
+padding: 12px;
 }
 
 .tarjetas__informativasA{ background-color: #E9D702;
     color: black;
-
+    padding: 12px;
 }
