@@ -62,11 +62,42 @@ body {
 
 .jumbotron {
     display: flex;
-    font-style: oblique;
-    text-align: center;
-    justify-content: center;
-    font-size: 64px;
+    font-style: bold;
+    
+    justify-content: start;
+    font-size: 56px;
     background-image: url(/assets/img\ jumbotron\ sin\ editar.jpg);
     color: aliceblue;
-    
+    background-size: cover;
+    background-position: 30vw -200px;
+    padding: 60px 120px;
+    line-height: 90px;
+
+}
+
+.jumbotron h1 {
+    width: 80%
+    ;
+}
+.jumbotron span
+{
+color: #E9D702;
+
+}
+
+.tarjetas{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetas__informativasN{background-color: black;
+    color: white;
+
+}
+
+.tarjetas__informativasA{ background-color: #E9D702;
+    color: black;
+
 }
