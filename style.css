@@ -94,12 +94,31 @@ text-align: center;
 
 }
 
-.tarjetas__informativasN{background-color: black;
+.tarjetas__informativasN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+    background-color: black;
     color: white;
 padding: 12px;
 }
 
-.tarjetas__informativasA{ background-color: #E9D702;
+.tarjetas__informativasA{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+    background-color: #E9D702;
     color: black;
     padding: 12px;
 }
+
+
+
+
+
