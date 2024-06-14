@@ -51,6 +51,8 @@ body {
     padding: 12px;
     text-align: center;
 
+  border: 2px solid #0000005e;
+  
 }
 
 .main__section__container__card>img {
@@ -119,6 +121,22 @@ padding: 12px;
 }
 
 
+.button{
+
+padding: 12px 30px;
+background-color: #E9D702;
+font-weight: 700px;
+color: white;
+
+}
 
 
 
+.main__section h3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+}
