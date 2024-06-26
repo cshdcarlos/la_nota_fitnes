@@ -1,3 +1,5 @@
+
+
 * {
 
     margin: unset;
@@ -163,6 +165,7 @@ body {
 
 
 .label {
+
     display: inline-block;
     /* Las etiquetas se muestran en un bloque */
     margin-bottom: 5px;
@@ -170,8 +173,8 @@ body {
 
     /* Campos de entrada */
     input[type="text"],
-    input[type="email"],
-    input[type="number"],
+    /*input[type="email"],
+    input[type="number"],*/
 
     select {
         width: 100%;
@@ -217,14 +220,14 @@ body {
 
 .logo1 {
     display: flex;
-    align-items:start;
-    justify-content:start;
+    align-items: start;
+    justify-content: start;
 }
 
-.logo2{
-display: flex;
-align-items: start;
-justify-content: center;
+.logo2 h4 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
 
 }
 
@@ -250,3 +253,4 @@ justify-content: center;
     justify-content: end;
 
 }
+
